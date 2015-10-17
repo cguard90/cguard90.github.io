@@ -2,8 +2,8 @@ html {
   background-color: #1845AD;
 }
 
-body > header {
-  position: relative;
+body header {
+  position: fixed;
   text-align: center;
   font-size: 36;
   font-weight: bold;
@@ -11,13 +11,17 @@ body > header {
   background-color: #205DE8;
   width: 100%;
   left: 0;
+  top:0;
 }
 
 section {
+  margin-top: 1.25em;
   text-align: center;
   width: 100%;
   margin-bottom: .5em;
-  position: relative;
+  position: fixed;
+  color: #CFD4D2;
+  left: 0
 }
 
 section ul li {
@@ -36,25 +40,14 @@ section ul li {
   margin-left: 0
 }
 
-figure {
-  width: 12em;
-  height: 25em;
-  border: 1px solid black;
-  margin: 0px 10px 5px 5px;
-  display: inline-block;
-  position: absolute;
-  left: 0
-}
-
 article {
   width: 60%;
   height: 25em;
-  margin: 0px 5px 5em 5em;
-  display: inline-block;
+  margin: 5em 5px 5em 5em;
 }
 
-article header {
-  font-size: 18;
+article h1 {
+  font-size: 2em;
   font-weight: bold;
   color: #CFD4D2;
 }
@@ -70,7 +63,7 @@ section nav{
   display: inline-block;
   border: 1px solid black;
   width: 8em;
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
@@ -100,4 +93,9 @@ footer {
   bottom: 0;
   left: 0;
   background-color: #1A6ECF;
+}
+
+.container img {
+  width: 30em;
+  height: auto;
 }
