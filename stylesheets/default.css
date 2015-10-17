@@ -2,7 +2,7 @@ html {
   background-color: #1845AD;
 }
 
-body header {
+body > header {
   position: fixed;
   text-align: center;
   font-size: 36;
@@ -11,23 +11,29 @@ body header {
   background-color: #205DE8;
   width: 100%;
   left: 0;
-  top:0;
+  top: 0;
 }
 
-section {
-  margin-top: 1.25em;
+div {
   text-align: center;
   width: 100%;
-  margin-bottom: .5em;
   position: fixed;
-  color: #CFD4D2;
-  left: 0
+  top: 1.75em;
+  left: 0;
 }
 
-section ul li {
+div ul li {
   font-size: 24;
   display: inline-block;
   margin-left: 2em;
+}
+
+section {
+  text-align: center;
+  width: 100%;
+  margin-bottom: .5em;
+  position: relative;
+  top: 6em;
 }
 
 #links {
