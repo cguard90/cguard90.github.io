@@ -14,17 +14,17 @@ body header {
   top:0;
 }
 
-section {
-  margin-top: 1.25em;
+div {
   text-align: center;
   width: 100%;
   margin-bottom: .5em;
   position: fixed;
   color: #CFD4D2;
-  left: 0
+  left: 0;
+  top: 1.75em;
 }
 
-section ul li {
+div ul li {
   font-size: 24;
   display: inline-block;
   margin-left: 2em;
