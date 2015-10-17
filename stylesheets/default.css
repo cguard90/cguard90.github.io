@@ -38,12 +38,17 @@ section ul li {
 
 figure {
   width: 12em;
-  height: 25em;
+  height: 20em;
   border: 1px solid black;
   margin: 0px 10px 5px 5px;
   display: inline-block;
   position: absolute;
   left: 0
+}
+
+.container img {
+  width: 12em;
+  height: auto;
 }
 
 article {
