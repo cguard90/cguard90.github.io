@@ -1,0 +1,72 @@
+body > header {
+  text-align: center;
+  font-size: 36;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+section {
+  text-align: center;
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+section ul li {
+  font-size: 24;
+  display: inline-block;
+  margin-left: 2em;
+}
+
+#home {
+  margin-left: 0
+}
+
+figure {
+  width: 12em;
+  height: 25em;
+  left: 0;
+  border: 1px solid black;
+  margin: 0px 10px 5px 5px;
+  display: inline-block;
+  position: absolute;
+}
+
+article {
+  width: 60%;
+  height: 25em;
+  border: 1px solid black;
+  margin: 0px 5px 10px 5em;
+  display: inline-block;
+}
+
+article header {
+  font-size: 18;
+  font-weight: bold;
+}
+
+article p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+section nav{
+  display: inline-block;
+  border: 1px solid black;
+  width: 8em;
+  position: absolute;
+  text-align: left;
+}
+
+section nav ul li {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: -15px;
+}
+
+footer {
+  height: 3em;
+  width: 100%;
+  border-top: 1px solid black;
+  bottom: 0;
+  position: fixed;
+}
