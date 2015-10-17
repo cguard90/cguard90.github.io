@@ -43,7 +43,7 @@ section ul li {
 article {
   width: 60%;
   height: 25em;
-  margin: 5em 5px 5em 5em;
+  margin: 5em 5px 5em 1em;
 }
 
 article h1 {
@@ -59,15 +59,17 @@ article p {
   padding-bottom: 1em;
 }
 
-section nav{
-  display: inline-block;
+nav {
   border: 1px solid black;
   width: 8em;
-  position: relative;
+  position: absolute;
   text-align: left;
+  right: 1em;
+  display: inline-block;
+  top: 8em;
 }
 
-section nav ul li {
+nav ul li {
   font-size: 1em;
   font-weight: normal;
   margin-left: -15px;
