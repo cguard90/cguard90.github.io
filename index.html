@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-  <head><title> Blog Page Solo Challenge </title></head> <!-- a working title, only -->
-    <header>Title of whole Blog </header> <!-- yet undecided, wireframe image will be provided for reference -->
+  <head>
+    <link type="text/css"; rel="stylesheet"; href="stylesheets/default.css"/>
+    <title> Blog Home Page </title>
+  </head>
 
-    <Nav>
-      <h1> <a href="http://cguard90.github.io/">Home</a> </h1> <!-- this will be the only direct link -->
-      <h1>About Me</h1><!-- after more is learned, the idea will be to have a drop down option contained within each of these h1's. For now, I do not know how to do this -->
-      <h1>Links</h1>
-      <h1>Contacts</h1>
-      <h1>Projects</h1>
-      <h1>Resume</h1>
-    </Nav>  <!-- I used section and h1 becuase for the layout of the page, they are all the same level of importance, I didn't opt for nav because these are not going to be directly navigation links on their own. -->
+  <body>
+    <header>My DBC Blog</header>
 
-    <figure>
-      <img src="#"> <!-- just a place holder for the image that will be on the left side -->
-      <figcaption> <!-- perhaps a caption. speculative. I wanted this on here really more for future reference and for practice of using it --> </figcaption>
-    </figure>
+    <section class = "top">
+      <ul>
+        <li id="home"> <a href="http://cguard90.github.io/">Home</a> </li>
+        <li>About Me</li><!-- after more is learned, the idea will be to have a drop down option contained within each of these li's. For now, I do not know how to do this -->
+        <li>Links</li>
+        <li>Contacts</li>
+        <li>Projects</li>
+        <li>Resume</li>
+      </ul>
+    </section>
 
-    <article>
-      <header>
-         <h1>Welcome to my blog page!</h1> <!-- just saying welcome, giving a beginning / header for just the text article. -->
-            <p>this will be the blurb of text describing origins of coding, etc.</p>
-            <p>this will be the paragraph for my goals and etc</p>
-            <p>perhaps a brief outline of what can be found where, and a gist of what each could contain i.e. that personal will be divded into professional and personal sections</p>
-      </header>
-    </article> <!-- article & body & p - this is for the bulk of the text that will be appearing on the home page. article designates what type of content should be contained here (symmantic element!) and then p from what I've seen no longer needs to be contained within the body tags... If I'm wrong i'd like to find out now, it seems like a good time. -->
+    <SECTION>
+      <figure>
+        <img src="#"> <!-- just a place holder for the image that will be on the left side -->
+        <figcaption> <!--caption still possible but optional --></figcaption>
+      </figure>
 
-    <nav>
-      <a href ="http://cguard90.github.io/blog/git.html">Week 1<!--(as they happen). --></a>
-      <a href ="#">Week 2 blog post</a>
-      <a href ="#">Week 3 blog post</a>
-    </nav> <!-- I used nav instead of aside because although these will be to related blog posts, each contained element will be a link rather than a comment, or content related to the article displayed on this page. -->
+      <article>
+        <header>
+           <h1>Welcome to my blog page!</h1> <!-- just saying welcome, giving a beginning / header for just the text article. -->
+              <p>this will be the blurb of text describing origins of coding, etc.</p>
+              <p>this will be the paragraph for my goals and etc</p>
+              <p>perhaps a brief outline of what can be found where, and a gist of what each could contain i.e. that personal will be divded into professional and personal sections</p>
+        </header>
+      </article>
+
+      <nav>
+        <ul>
+          <li><a href ="http://cguard90.github.io/blog/git.html">Week 1</a></li>
+          <li><a href ="#">Week 2 blog post</a></li>
+          <li><a href ="#">Week 3 blog post</a></li>
+        </ul>
+      </nav> <!-- I used nav instead of nav because although these will be to related blog posts, each contained element will be a link rather than a comment, or content related to the article displayed on this page. -->
+    </SECTION>
+
 
     <aside>
       <h4>I just want to say thank you to:</h4>
       <p>list names of people I've partnered with, talked about code with, taught me code, contributed to the blog... etc</p>
     </aside>
 
-    <footer>
+    <footer class ="feet">
       <!-- probably just going to be an ending color to indicate the bottom of the page. I don't really have anything in mind for this yet.-->
     </footer>
+  </body>
 </html>
