@@ -62,7 +62,7 @@ article p {
 nav {
   border: 1px solid black;
   width: 8em;
-  position: absolute;
+  position: fixed;
   text-align: left;
   right: 1em;
   display: inline-block;
