@@ -51,8 +51,7 @@ figure {
   height: 20em;
   border: 1px solid black;
   margin: 0px 10px 5px 5px;
-  display: inline-block;
-  position: absolute;
+  position: fixed;
   left: 0
 }
 
@@ -85,7 +84,7 @@ section nav{
   display: inline-block;
   border: 1px solid black;
   width: 8em;
-  position: absolute;
+  position: fixed;
   text-align: left;
 }
 
