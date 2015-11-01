@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <head>
+    <link type="text/css"; rel="stylesheet"; href="../stylesheets/blog2.css"/>
+    <title>Enumerables</title>
+  </head>
+
+  <body>
+    <header>My DBC Blog</header>
+
+    <section>
+      <ul id="links">
+        <li id="home"> <a href="http://cguard90.github.io/">Home</a> </li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li>Contacts</li>
+        <li>Projects</li>
+        <li>Resume</li>
+      </ul>
+    </section>
+
+    <article>
+      <h1>Enumerables</h1>
+        <p>
+          So this week we learned more about enumerables. These are fun to work with if used properly, but like all things code, you must use them properly unless you really like error messages. So to begin, an enumerable is a thing. What kind of thing is it? It's a module specifically. To keep it simple an enumerable is something that can be iterated over. It is not the same as an enumerator. An enumerator allows both internal and external iteration, an enumerable is a mixin. I'm diving into a lot of definitions, but let's just back up to a loose association between enumerables and iterations.
+        </p>
+
+        <p>
+          So what is an example of an enumerable method? There are several, and a few of them overlap with array methods (because you can iterate over an array). A few examples that are also array methods are .map, .max, .sort, etc. The one I'm going to talk about is lazy. And that's not an insult, it's just lazy. I saw this listed and it caught my curiosity, so it seems like a good method.
+        </p>
+
+        <p>
+          To be honest, lazy is not the easiest method to understand (ironic). In a nutshell, it returns an enumerator whose methods enumerate values only on an as needed basis. So that's why it's lazy, it does things only on an as needed basis, Otherwise it naps (not a technical term, its a bad joke). From what I'm able to read on it, lazy is actually a really awesome way to chain methods. I'm not 100% clear on the syntax on it so I'm not trying to map out exactly how to use it, but just what to use it for.
+        </p>
+
+        <p>
+          It also allows you to iterate over infinite ranges, and return only the examples you would like returned. I think that's helpful, especially if you don't know at what point your data will return. a good example (and I guess a little syntax) is this:
+        </p>
+        <p>range = 1..Float::INFINITY
+        </p>
+        <p>
+          p range.lazy.collect { |x| x*x }.first(10)
+        </p>
+        <p>
+          => [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+        </p>
+
+        <p>
+          I think this is a better example of the infinite range, rather than the chaining. But it calculates the first 10 items that this iterator would return, and returns those items, rather than having to run the iterator and set x equal to 1, and have x += 1, etc. I think it's a nice, easy to read example of why Lazy can be useful. It doesn't seem like the easiest method to implement, but once I have a better handle on it, I'll update this page for later. Believe it or not, it is kind of difficult to find examples for this one because a lot of results come back for 'lazy' that are either not the easiest to read, or they talk about coding efficiently, but call it lazy instead.
+        </p>
+
+        <p>
+          Obviously this is a new method to me, but if you want to read more on it, I think this is a very good article on <a href="http://www.sitepoint.com/implementing-lazy-enumerables-in-ruby/">sitepoint</a>.
+
+
+      <nav>
+        <ul>
+          <li><a href ="git.html">Week 1</a></li>
+          <li><a href ="css-concepts.html">Week 3 blog post</a></li>
+          <li><a href ="arrays-hashes.html">Week 4 blog post</a></li>
+          <li><a href ="Issues_in_tech.html">Online Security blog post</a></li>
+          <li><a href="Enumerables.html">Enumerables Entry</a></li>
+        </ul>
+      </nav>
+
+    </article>
+
+    <footer class ="feet">
+      <!-- probably just going to be an ending color to indicate the bottom of the page. I don't really have anything in mind for this yet.-->
+    </footer>
+  </body>
+</html>
