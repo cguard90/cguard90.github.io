@@ -5,7 +5,7 @@ html {
 body > header {
   position: fixed;
   text-align: center;
-  font-size: 36;
+  font-size: 36px;
   font-weight: bold;
   border-bottom: 1px solid black;
   background-color: #205DE8;
