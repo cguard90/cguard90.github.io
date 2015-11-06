@@ -1,16 +1,16 @@
 <!DOCTYPE html>
   <head>
     <link type="text/css"; rel="stylesheet"; href="../stylesheets/blog2.css"/>
-    <title> Blog Home Page </title>
+    <title>CSS Concepts</title>
   </head>
 
   <body>
-    <header>My DBC Blog</header>
+    <header class="header">My DBC Blog</header>
 
-    <section>
+    <section class="link_list">
       <ul id="links">
         <li id="home"> <a href="http://cguard90.github.io/">Home</a> </li>
-        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="about.html">About Me</a></li>
         <li><a href="links.html">Links</a></li>
         <li>Contacts</li>
         <li>Projects</li>
@@ -28,21 +28,21 @@
           Relative positioning is the positioning of an object relative to where it would have been otherwise. This basic concept is what is throwing me off. It is not placed relative to what else is on the page, but it's based off of where it would be otherwise. This is considered to be in the normal flow of the document, so it won't overlap other items that should be appearing in this space, however it can be overwritten / blocked by other elements on the page. So now I've used a couple more technical phrases... so what is the flow? lets look.
         </p>
 
-          <div class="container">
+          <div class="css_container">
             <img src="../imgs/ex1.png">
           </div>
 
         <p>
           So in this example, 4 divs were created. I have erased all their positioning instructions except for their relative positioning. This means that they show up in the order they are written, placed one after the other vertically. And that's essentially at a high level, the flow. If I change the positioning on any of these so that it's considered 'out of the flow' then it would no longer appear in that stack. So it would look like this:
         </p>
-          <div class="container">
+          <div class="css_container">
             <img src="../imgs/ex2.png">
           </div>
 
         <p>Or this:
         </p>
 
-          <div class="container">
+          <div class="css_container">
             <img src="../imgs/ex3.png">
           </div>
 
@@ -62,7 +62,7 @@
           Static positioning is the last position type, and it is used less than the other 4 types. Static position types are not effected by commands in relation to the top, bottom, right, or left of the page. They are essentially going to leave the items where they are according to the normal flow of the page. So in this example, even though I've instructed Div1 to be in the top left corner of the page, static doesn't follow these instructions, because it's keeping the element in the normal flow of the page.
         </p>
 
-          <div class="container">
+          <div class="css_container">
             <img src="../imgs/ex4.png">
           </div>
 
@@ -72,11 +72,11 @@
 
       <nav>
         <ul>
-          <li><a href ="git.html">Week 1</a></li>
-          <li><a href ="css-concepts.html">Week 3 blog post</a></li>
-          <li><a href ="arrays-hashes.html">Week 4 blog post</a></li>
-          <li><a href ="Issues_in_tech.html">Online Security blog post</a></li>
-          <li><a href="Enumerables.html">Enumerables Entry</a></li>
+          <li class="nav_list"><a href ="git.html">Week 1</a></li>
+          <li class="nav_list"><a href ="css-concepts.html">Week 3 blog post</a></li>
+          <li class="nav_list"><a href ="arrays-hashes.html">Week 4 blog post</a></li>
+          <li class="nav_list"><a href ="Issues_in_tech.html">Online Security blog post</a></li>
+          <li class="nav_list"><a href="Enumerables.html">Enumerables Entry</a></li>
         </ul>
       </nav>
 
