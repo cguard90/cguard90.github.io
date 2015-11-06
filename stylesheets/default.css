@@ -1,8 +1,4 @@
-html {
-  background-color: #1845AD;
-}
-
-body > header {
+.header {
   position: fixed;
   text-align: center;
   font-size: 36px;
@@ -14,18 +10,20 @@ body > header {
   top: 0;
 }
 
-div {
+.link_list {
   text-align: center;
   width: 100%;
   position: fixed;
   top: 1.75em;
   left: 0;
+
 }
 
-div ul li {
+section ul li {
   font-size: 24;
   display: inline-block;
   margin-left: 2em;
+  background-color: #20C7E8;
 }
 
 section {
@@ -39,7 +37,6 @@ section {
 #links {
   border-bottom: 1px solid black;
   background-color: #20C7E8;
-  left: 0;
 }
 
 #home {
@@ -50,9 +47,8 @@ figure {
   width: 12em;
   height: 20em;
   border: 1px solid black;
-  margin: 0px 10px 5px 5px;
+  margin: 5em 10px 5px 0em;
   position: fixed;
-  left: 0
 }
 
 .container img {
@@ -61,41 +57,35 @@ figure {
 }
 
 article {
-  width: 60%;
-  height: 25em;
-  margin: 0px 5px 5em 5em;
+  width: 40%;
+  margin: 4em 0em 5px 15em;
   display: inline-block;
 }
 
-article header {
-  font-size: 18;
-  font-weight: bold;
-  color: #CFD4D2;
-}
 
 article p {
   font-size: 1em;
-  font-weight: normal;
-  color: #CFD4D2;
+  color: #0E1314;
   padding-bottom: 1em;
 }
 
-section nav{
+nav {
   display: inline-block;
   border: 1px solid black;
-  width: 8em;
+  width: 10em;
   position: fixed;
-  text-align: left;
+  top:6em;
+  right: 1em;
 }
 
-section nav ul li {
+.nav_list {
   font-size: 1em;
   font-weight: normal;
   margin-left: -15px;
 }
 
 a:link {
-  color: #ffffff;
+  color: black;
 }
 
 a:visited {
