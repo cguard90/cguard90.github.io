@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+  <head>
+    <link type="text/css"; rel="stylesheet"; href="stylesheets/blog2.css"/>
+    <title>Classes</title>
+  </head>
+
+  <body>
+    <header class="header">My DBC Blog</header>
+
+    <section class="link_list">
+      <ul id="links">
+        <li id="home"><a href="http://cguard90.github.io/">Home</a> </li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li>Contacts</li>
+        <li>Projects</li>
+        <li>Resume</li>
+      </ul>
+    </section>
+
+    <article>
+      <h1>Fun with Classes</h1>
+        <p>
+          So classes are awesome becuase they allow you to create a template to create objects that will have a lot of the same properties. That in itself is handy because it helps keep your code DRY. No one likes code left out in the rain. Let's look at an example of a class... so for that I'm actually going to ask you to go to my <a href="https://github.com/cguard90/phase-0/blob/master/week-6/class_example.rb">GitHub</a>.
+        </p>
+
+        <p>
+          I'm assuming at this point that you have done that. So what you are looking at is a code to create an instance of the class Book. Reading the code top down, we start with an attr_reader and attr_accessor. Essentially what this allows is for these items to be accessed within the class by different methods. If this sounds handy, you would be right to think so.
+        </p>
+
+        <p>
+          On line 6 the 'book' begins to be created. All classes begin with an initialize method. So mine takes 2 arguments, a title, which ends up being irrelevant... (oh well, that's what I get for not planning), and pages. This will only work for a short book, because it's a limited example. So your pages number be entered as a number. This is where we dive into the template parts of a class.
+        </p>
+
+        <p>
+          The instance variables are labeled as @variable. mine are @title, @pages, and @pages_to_make. Now I have set one to an empty array. That is because I found it easier to work with it like this. The attr_reader & attr_accessor now become key onces these variables are created. I want to use these variables for later methods, so the attr_reader lets that variable be read by another method within the class, and the attr_accessor lets me both read and edit the variable from another method within the class.
+        </p>
+
+        <p>
+          The first method instance is create pages (line 15). The purpose of this method is to create pages based on the number you provided when the class was initialized. To do this it takes the instance variable @pages_to_make and runs a loop with a counter, while the counter is less than pages to make (You'll note I started the counter at 1. Arrays start counting at 0. Most books don't use a page 0).
+        </p>
+
+        <p>
+          The next thing you'll want to note is that the pages are not automatically created when the book is made. We have to actually run this method. At the end you will see the instance method is called on my created book 'testbook' (quite a clever name right?). If the method create_pages is not run, then the method 'read' will not be able to work, because it will always return nothing, becuase pages will always be an empty array, and empty arrays that are always empty are sad.
+        </p>
+
+        <p>
+          After create_pages is called, we can then call read which just prompts you to turn pages. The book isn't filled out, Although that could be fun to add to this. But once you 'finish reading' the page, you would have to turn it in a normal book (if you want to continue on), so that's exactly what read does in this case. I kept the example short, so it doesn't save where you left off at, but to do that it would be best to create a new method called something like save. During read, if they wanted to stop, you could prompt the user to call the save method, and if acknowledged the code could be updated that way. It's a good time.
+        </p>
+
+        <p>
+          So to summarize, use an instance variable when you want a variable used in multiple methods in a class. Use an instance method to run a method contained within a class. In order to actually run these, you would need an instance of the class created(hence instance variable, and instance method). Have fun, and Happy coding!
+        </p>
+
+
+      <nav>
+        <ul>
+          <li class="nav_list"><a href ="git.html">Week 1</a></li>
+          <li class="nav_list"><a href ="css-concepts.html">Week 3 blog post</a></li>
+          <li class="nav_list"><a href ="arrays-hashes.html">Week 4 blog post</a></li>
+          <li class="nav_list"><a href ="Issues_in_tech.html">Online Security blog post</a></li>
+          <li class="nav_list"><a href="Enumerables.html">Enumerables Entry</a></li>
+        </ul>
+      </nav>
+
+    </article>
+
+    <footer class ="feet">
+      <!-- probably just going to be an ending color to indicate the bottom of the page. I don't really have anything in mind for this yet.-->
+    </footer>
+  </body>
+</html>
+
+<!--
+
+    How was it to wireframe and create an HTML page with a pair?
+      It was good fun, I think it's interesting how different resources for code
+      appeal to different people at different times. I'll definitely be
+      exploring html doctor (might be off on the name there) more as a result of
+      the paired challenge, before I had saved it but didn't get inclined to
+      read it unless I needed it.
+
+
+    Did you find wireframing to be helpful to your development process?
+      Somewhat helpful, I think wireframing is alright, so far we're not making
+      anything too crazy though. The biggest aspect I think wireframing helps
+      with is accounting for all aspects of the page that you need to write the
+      HTML for. This is pretty crucial I suppose, I'm sure as we get into CSS
+      we'll be more happy to wireframe as well.
+
+
+    What did you and your pair decide made a good wireframe?
+      We actually designed the wireframe together, made sure it had all the
+      content from the previous challenge, and then filled out the HTML from
+      there. The important parts were mostly location of content, and what
+      content should and shouldn't be on the page. Beyond that it was just
+      discussion of layout options, and what other potential things we could /
+      should account for. Mostly though I think we agreed it was just about
+      setting up a guideline to follow.
+
+    What new semantic elements did you learn about (if any) ?
+      I don't think we covered new symantic elements, but we did discuss spans,
+      divs, prioritization for h1 h2 etc, but we didn't utilize anything new to
+      me that was symantic on this challenge.
+  -->
