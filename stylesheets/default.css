@@ -16,22 +16,14 @@
   position: fixed;
   top: 1.75em;
   left: 0;
-
+  margin-bottom: .5em;
 }
 
-section ul li {
+.link_list ul li {
   font-size: 24;
   display: inline-block;
   margin-left: 2em;
   background-color: #20C7E8;
-}
-
-section {
-  text-align: center;
-  width: 100%;
-  margin-bottom: .5em;
-  position: relative;
-  top: 6em;
 }
 
 #links {
@@ -43,21 +35,16 @@ section {
   margin-left: 0
 }
 
-figure {
+.container img {
   width: 12em;
   height: 20em;
   border: 1px solid black;
-  margin: 5em 10px 5px 0em;
+  margin: 5em 10px 5px -2em;
   position: fixed;
 }
 
-.container img {
-  width: 12em;
-  height: auto;
-}
-
 article {
-  width: 40%;
+  width: 50%;
   margin: 4em 0em 5px 15em;
   display: inline-block;
 }

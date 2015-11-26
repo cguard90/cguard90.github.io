@@ -3,8 +3,6 @@
   font-size: 2em;
   position: relative;
   width: 100%;
-  left:0;
-  top: 0;
   background-color: #7CAFE8;
 }
 
@@ -21,34 +19,38 @@ a:visited {
   color: #22698F;
 }
 
-
+#links li {
+  display: inline-block;
+  margin-left: 1.5em;
+}
 
 .link_list {
   position: relative;
+  text-align: center;
+}
+
+.container img {
+  width: 12em;
+  height: 20em;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
 }
 
 article {
   position: relative;
-  left: 1em;
-  width: 95%;
+  width: 90%;
+  display: inline-block;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
   font-size: 1.5em;
   background-color: #7CAFE8;
-
 }
 
-p {
-  font-size: 1em;
-}
-
-nav {
-  position: left 0em;
-}
-
-nav li ul{
+nav li ul {
   display: none;
 }
 
@@ -57,7 +59,5 @@ nav li:hover > ul {
   }
 
 .nav_list {
-  display: inline-block;
-  text-align: center;
   padding-left: .5em;
 }
