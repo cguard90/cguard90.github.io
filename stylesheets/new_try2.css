@@ -6,7 +6,7 @@
   background-color: #7CAFE8;
 }
 
-a:link {
+.link_list a:link {
   font-size: 1.5em;
   color: #0D0C24;
 }
@@ -30,8 +30,7 @@ a:visited {
 }
 
 .container img {
-  width: 12em;
-  height: 20em;
+  width: 10em;
   border: 1px solid black;
   position: relative;
   display: inline-block;
@@ -60,4 +59,8 @@ nav li:hover > ul {
 
 .nav_list {
   padding-left: .5em;
+}
+
+article p a {
+  font-size: 1em;
 }
