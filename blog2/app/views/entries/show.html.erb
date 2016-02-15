@@ -1,0 +1,9 @@
+<div class="entry_title">
+  <%= @entry.title %>
+</div>
+
+<div class="paragraphs">
+  <% @entry.paragraphs.each do |paragraph|%>
+    <p><%=paragraph.body%></p>
+  <% end %>
+</div>
