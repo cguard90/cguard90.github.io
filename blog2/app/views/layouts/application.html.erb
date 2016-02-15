@@ -19,8 +19,8 @@
 
   <div class="entries">
     <ul>
-      <%@entries.each do %>
-        <%= link_to "#{@entry.title}", %>
+      <%@entries.each do |entry| %>
+        <%= link_to "#{entry.title}", entry_path(id: entry.id) %>
       <% end %>
     </ul>
   </div>
