@@ -6771,3 +6771,7 @@ button.close {
 .entries-list {
   margin-top: -10px;
 }
+
+.entry_paragraph {
+  margin: 0 0 10px 25%;
+}
