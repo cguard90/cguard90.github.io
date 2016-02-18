@@ -6758,7 +6758,7 @@ button.close {
   }
 }
 
-#test  {
+#entries-box  {
   float: left;
   width: 21%;
   clear: left;
@@ -6767,3 +6767,7 @@ button.close {
   margin-right: 15px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.entries-list {
+  margin-top: -10px;
+}

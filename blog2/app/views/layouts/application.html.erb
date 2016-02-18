@@ -16,11 +16,11 @@
     </ul>
   </div>
 
-  <div class="col-sm-4 navbar-inverse" id="test">
+  <div class="col-sm-4 navbar-inverse" id="entries-box">
     <ul class="nav nav-pills nav-stacked">
       <p class="text-primary">Entries:</p>
       <%@entries.each do |entry| %>
-        <li><%= link_to "#{entry.title}", entry_path(id: entry.id) %></li>
+        <li class="entries-list"><%= link_to "#{entry.title}", entry_path(id: entry.id) %></li>
       <% end %>
     </ul>
   </div>
