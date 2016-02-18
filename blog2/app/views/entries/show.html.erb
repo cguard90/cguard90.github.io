@@ -4,6 +4,6 @@
 
 <div class="paragraphs">
   <% @entry.paragraphs.each do |paragraph|%>
-    <p><%=paragraph.body%></p>
+    <p> <%=paragraph.body.html_safe %> </p>
   <% end %>
 </div>
