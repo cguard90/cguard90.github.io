@@ -1083,7 +1083,7 @@ html {
 }
 body {
   font-family: "Georgia", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1277,7 +1277,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 19px;
+  font-size: 31px;
 }
 h5,
 .h5 {
@@ -3978,7 +3978,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  font-size: 13.8px;
+  font-size: 19px;
 }
 .nav > li {
   position: relative;
@@ -6761,7 +6761,7 @@ button.close {
 
 #entries-box  {
   float: left;
-  width: 21%;
+  width: 22.5%;
   clear: left;
   margin-left: 15px;
   margin-top: 5px;
