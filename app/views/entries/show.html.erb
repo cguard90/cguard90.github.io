@@ -2,8 +2,8 @@
   <h4 class="h4"> <%= @entry.title %> </h4>
 </div>
 
-<div class="col-md-">
+<div class="main-text">
   <% @entry.paragraphs.each do |paragraph|%>
-    <p class="entry_paragraph"> <%=paragraph.body.html_safe %> </p>
+    <p> <%=paragraph.body.html_safe %> </p>
   <% end %>
 </div>
