@@ -1278,6 +1278,7 @@ h3,
 h4,
 .h4 {
   font-size: 31px;
+  text-align: center;
 }
 h5,
 .h5 {
@@ -1807,7 +1808,11 @@ pre code {
     width: 33.33333333%;
   }
   .col-sm-3 {
-    width: 25%;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    margin-top: 94px;
   }
   .col-sm-2 {
     width: 16.66666667%;
@@ -3063,6 +3068,10 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -6766,8 +6775,7 @@ button.close {
 #entries-box  {
   float: left;
   width: 22.5%;
-  clear: left;
-  margin: 10px 15px 3% 15px;
+  margin: 14px 15px 3% 15px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
@@ -6775,14 +6783,8 @@ button.close {
   margin-top: -10px;
 }
 
-.entry_paragraph {
-  margin: 0 0 10px 25%;
-}
-
 .main-text {
-  margin-left: 20%;
-}
-
-.Projects {
-  margin-left: 25%;
+  width: 70%;
+  display: inline-block;
+  margin-top: 14px;
 }
