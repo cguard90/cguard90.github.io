@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :entries,  only: [:show]
   resources :links, only: [:index]
   resources :projects, only: [:index]
+  resources :resumes, only:[:index]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

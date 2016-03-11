@@ -6788,3 +6788,9 @@ button.close {
   display: inline-block;
   margin-top: 14px;
 }
+
+iframe {
+  width: 600px;
+  height: 700px;
+
+}
