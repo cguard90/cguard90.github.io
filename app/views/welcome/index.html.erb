@@ -1,21 +1,5 @@
-<div class="well">
-  <h4>Welcome to my blog</h4>
-</div>
+<%= render partial: 'intro' %>
 
-<div class="main-text">
-  <p>
-    Just a little bit about Myself, I've lived in Florida since I graduated from Wells College with a degree in philosophy. I had originally moved to Jacksonville to work as Mortgage Loan Officer. After about a year and a half of that, I moved to business Banking with Bank of America. A few months after I started at the bank, I started rock climbing as a hobby. I decided to learn how to code in September of 2014. After learning some fundamentals, I started to get a bit more serious about learning code. I decided to make it a career change, and have now completed the Dev Bootcamp training program. I am now remaking my blog on rails.
-  </p>
+<%= render partial: 'links/index' %>
 
-  <p>
-    The motivation for this project originated when viewing the blog again after completing DBC. It is currently not in a state that I think employers would find very appealing. I plan on updating it to an acceptable level, but I have also begun working on another more complex project. Additionally I was motivated to start on this while stuck in an airport waiting for a flight that has been delayed about two hours, which eventually turned into 12 hours. I figured that was a nice window to get cracking on revising an old project.
-  </p>
-
-  <p>
-    If you would like to see more of my code, I welcome you to see my <%= link_to "GitHub", "https://github.com/cguard90", target: :_blank %> I currently have only kept the projects that I think show my development best, or are polished enough for presentation to show my potential. I also welcome you to view me on <%= link_to "LinkedIn", "https://www.linkedin.com/in/cguard90?trk=hp-identity-name", target: :_blank %>. I am currently seeking opportunities, and I am interested in a variety of locations throughout the US. Geography for me is not much of an obstacle, and I think it would be interesting to live somewhere new with my 2 dogs.
-  </p>
-
-  <p>
-    As you are looking at this page, I do want to remind you that as of 03/09/2016 each entry was written prior to November 30th of 2015. The page itself is what I have been working on, and will continue to touch up in the near future.
-  </p>
-</div>
+<%= render partial: 'projects/index' %>

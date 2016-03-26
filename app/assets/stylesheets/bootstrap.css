@@ -6775,7 +6775,7 @@ button.close {
 #entries-box  {
   float: left;
   width: 22.5%;
-  margin: 14px 15px 3% 15px;
+  margin: 130px 15px 3% 15px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
@@ -6786,11 +6786,15 @@ button.close {
 .main-text {
   width: 70%;
   display: inline-block;
-  margin-top: 14px;
+  margin: 14px 0px 0px 10px;
 }
 
 iframe {
   width: 600px;
   height: 700px;
+}
 
+#first {
+  text-align: left;
+  margin-left: 37%;
 }
