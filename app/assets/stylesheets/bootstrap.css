@@ -10,7 +10,6 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
 }
 article,
 aside,
@@ -1808,7 +1807,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-sm-3 {
-    width: 100%;
+    width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     position: absolute;
