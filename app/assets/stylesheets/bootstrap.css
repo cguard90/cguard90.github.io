@@ -6815,6 +6815,7 @@ clear: both;
   text-align: left;
   float: right;
   padding-left: 10px;
+  margin-right: 0px;
 }
 
 #resume {
