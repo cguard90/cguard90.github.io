@@ -10,7 +10,6 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
 }
 article,
 aside,
@@ -1087,6 +1086,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  margin: 0 auto;
 }
 input,
 button,
@@ -1808,7 +1808,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-sm-3 {
-    width: 100%;
+    width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     position: absolute;
@@ -6775,7 +6775,7 @@ button.close {
 #entries-box  {
   float: left;
   width: 22.5%;
-  margin: 14px 15px 3% 15px;
+  margin: 130px 15px 3% 15px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
@@ -6786,11 +6786,42 @@ button.close {
 .main-text {
   width: 70%;
   display: inline-block;
-  margin-top: 14px;
+  margin: 14px 0px 10px 10px;
 }
 
 iframe {
-  width: 600px;
+  width: 90%;
   height: 700px;
+}
 
+#first {
+  margin-right: 25%;
+}
+
+#links .main-text {
+  width: 50%;
+  border-right: 1px solid;
+  float: left
+}
+
+#projects {
+clear: both;
+}
+
+#projects .main-text {
+  width: 50%;
+  border-left: 1px solid;
+  text-align: left;
+  float: right;
+  padding-left: 10px;
+  margin-right: 0px;
+}
+
+#resume {
+  clear: both;
+}
+
+#resume .main-text {
+  width: 100%;
+  margin-left: 4%
 }
