@@ -9,9 +9,9 @@
 <body>
   <div class="col-sm-3">
       <div class="btn-default"> <%=link_to "Home", root_path%> </div>
-      <div class="btn-default"> <%= link_to "Links", links_path %></div>
-      <div class="btn-default"> <%= link_to "Projects", projects_path %> </div>
-      <div class="btn-default"> <%= link_to "Resume", resumes_path %></div>
+      <div class="btn-default"> <%= link_to "Links", {action: "index", controller: "welcome", anchor: "links"} %></div>
+      <div class="btn-default"> <%= link_to "Projects", {action: "index", controller: "welcome", anchor: "projects"} %> </div>
+      <div class="btn-default"> <%= link_to "Resume", {action: "index", controller: "welcome", anchor: "resume"} %></div>
   </div>
 
 
