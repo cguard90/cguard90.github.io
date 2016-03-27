@@ -6786,15 +6786,42 @@ button.close {
 .main-text {
   width: 70%;
   display: inline-block;
-  margin: 14px 0px 0px 10px;
+  margin: 14px 0px 10px 10px;
 }
 
 iframe {
-  width: 600px;
+  width: 90%;
   height: 700px;
 }
 
 #first {
   text-align: left;
   margin-left: 37%;
+}
+
+#links .main-text {
+  width: 50%;
+  border-right: 1px solid;
+  float: left
+}
+
+#projects {
+clear: both;
+}
+
+#projects .main-text {
+  width: 50%;
+  border-left: 1px solid;
+  text-align: left;
+  float: right;
+  padding-left: 10px;
+}
+
+#resume {
+  clear: both;
+}
+
+#resume .main-text {
+  width: 100%;
+  margin-left: 4%
 }
