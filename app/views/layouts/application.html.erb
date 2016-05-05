@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Chris Guard Blog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+  <head>
+    <title>Chris Guard Blog</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  </head>
 <body>
+
+  <div class="page-header">
+    <h4><%= @title %></h4>
+  </div>
+
   <div class="col-sm-3">
       <div class="btn-default"> <%=link_to "Home", root_path%> </div>
       <div class="btn-default"> <%= link_to "Links", {action: "index", controller: "welcome", anchor: "links"} %></div>
