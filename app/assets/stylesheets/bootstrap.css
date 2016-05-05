@@ -84,6 +84,9 @@ sub {
 }
 img {
   border: 0;
+  max-height: 200px;
+  border-radius: 100px;
+  margin: 10px 0px 10px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -6816,4 +6819,8 @@ clear: both;
 
 #resume .main-text {
   margin-left: 4%
+}
+
+.filler {
+  text-align: center;
 }
