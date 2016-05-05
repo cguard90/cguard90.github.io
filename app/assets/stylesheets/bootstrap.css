@@ -1412,7 +1412,7 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
-  margin: 10px 0 10px;
+  margin-top: 10px;
   padding-top: 5px;
   border-bottom: 1px solid #e3e3e3;
   background-color: #f5f5f5;
