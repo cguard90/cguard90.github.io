@@ -6820,7 +6820,7 @@ clear: both;
   margin-left: 4%
 }
 
-.filler {
+#links_filler {
   text-align: center;
   width: 50%;
   float: right;
