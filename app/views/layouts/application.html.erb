@@ -3,14 +3,12 @@
     <title>Chris Guard Blog</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
   </head>
 <body>
 
-  <div class="well">
-    <h4>Welcome to my blog</h4>
+  <div class="page-header">
+    <h4><%= @title %></h4>
   </div>
-  <!-- make into true title -->
 
   <div class="col-sm-3">
       <div class="btn-default"> <%=link_to "Home", root_path%> </div>
